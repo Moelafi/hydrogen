@@ -8,7 +8,7 @@ export default defineConfig({
     defaultCountryCode: 'US',
     defaultLanguageCode: 'EN',
     storeDomain: 'hydrogen-preview.myshopify.com',
-    storefrontToken: process.env.PRIVATE_STOREFRONT_KEY,
+    storefrontToken: process.env["PRIVATE_STOREFRONT_KEY"],
     storefrontApiVersion: '2022-07',
   },
   session: CookieSessionStorage('__session', {
